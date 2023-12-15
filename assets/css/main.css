@@ -293,10 +293,10 @@ input, select, textarea {
 /* Row */
 
 	.row {
-		display: flex;
-		flex-wrap: wrap;
+		display: grid;
+		grid-template-columns: auto;
 		box-sizing: border-box;
-		align-items: stretch;
+
 	}
 
 		.row > * {
